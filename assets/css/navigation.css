@@ -1,0 +1,73 @@
+body {
+    overflow-x: hidden;
+}
+.navigation {
+    list-style: none;
+    max-width: 60%;
+    max-height: 28.8rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    z-index: 0;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    padding: 5rem;
+}
+ul.navigation>li {
+    list-style: none;
+    letter-spacing: 0.05rem;
+    padding: 1rem 0 1rem 0;
+}
+ul.navigation>li>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+ul.navigation>li>a:hover {
+    color: #C0B283;
+    transition: color 0.4s ease 0s;
+}
+.page-wrap {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    background-color: #ffffff;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+}
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.nav-trigger + label,
+.page-wrap {
+    -webkit-transition: all 300ms cubic-bezier(0.32, 1.25, 0.375, 1.15);
+    transition: all 300ms cubic-bezier(0.32, 1.25, 0.375, 1.15);
+}
+label[for="nav-trigger"] {
+    position: absolute;
+    top: 6.9rem;
+    left: 5rem;
+    z-index: 2;
+    width: 9rem;
+    height: 1.8rem;
+    cursor: pointer;
+    background-image: url("../images/icons/menu-button.svg");
+    background-size: contain;
+}
+.nav-trigger:checked+label {
+    top: 36.9rem;
+}
+.nav-trigger:checked~.page-wrap {
+    top: 30rem;
+}
+.nav-item {
+    color: #fff;
+    font-size: 2.8rem;
+    line-height: 3rem;
+}
