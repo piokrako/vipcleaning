@@ -1,15 +1,10 @@
 # VIPCleaning
 Cleaning company HTML + CSS theme with dummy data in Polish.
-
-## DEMO
-https://www.manticore.uni.lodz.pl/~piokrako/vipcleaning/index.html
-
 Website project that I did for my friends company in 2017. Visual idendity designed from a scratch. Concept of creating modern, neat website for company that industry isn't so glorious.
 
 This project was created as hi-fi prototype for the client, then it was reworked as a WordPress theme.
 
 Curently its only a part of history of this company.
-
 
 ## Used technologies
 - CSS
@@ -19,5 +14,10 @@ Curently its only a part of history of this company.
 - jQuery
 - FlowTypeJs
 
+## DEMO
+https://www.manticore.uni.lodz.pl/~piokrako/vipcleaning/index.html
+
+## Behance
+https://www.behance.net/gallery/82766873/Modern-Cleaning-Company-website-project
 
 No further plans to develope it.
